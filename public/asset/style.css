@@ -1,0 +1,9 @@
+.CV-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.CV-container div{
+    width: 100%;
+}

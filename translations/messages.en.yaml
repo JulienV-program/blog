@@ -1,0 +1,7 @@
+menu :
+  home :
+    label : 'Home'
+  cv:
+    label: 'CV'
+  article:
+    label: 'Article list'

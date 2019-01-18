@@ -1,0 +1,7 @@
+menu :
+    home :
+        label : 'Accueil'
+    cv:
+        label: 'CV'
+    article:
+        label: 'Liste d`articles'

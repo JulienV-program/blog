@@ -3,9 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="/asset/style.css" rel="stylesheet">
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+    <ul>
+        <li><a href={{ path('home') }}>{{ 'menu.home.label'|trans }}</a> </li>
+        <li><a href={{ path('cv') }}>{{ 'menu.cv.label'|trans }}</a> </li>
+        <li><a href={{ path('article') }}>{{ 'menu.article.label'|trans }}</a> </li>
+    </ul>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
